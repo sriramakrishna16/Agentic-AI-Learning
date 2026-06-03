@@ -1,0 +1,21 @@
+Artificial Intelligence (AI) is transforming the way people interact with technology. AI systems can analyze data, recognize patterns, and assist in decision-making across various industries.
+
+Machine Learning is a subset of AI that enables computers to learn from data without being explicitly programmed. By analyzing large datasets, machine learning models can identify trends and make predictions.
+
+Natural Language Processing (NLP) focuses on enabling computers to understand and generate human language. Applications of NLP include chatbots, language translation, sentiment analysis, and text summarization.
+
+Retrieval-Augmented Generation (RAG) combines information retrieval techniques with large language models. Instead of relying solely on the model's training data, RAG retrieves relevant documents from a knowledge base and provides them as context to the language model.
+
+Embeddings are numerical representations of text that capture semantic meaning. Similar texts are represented by vectors that are close together in vector space. Embeddings are widely used in search engines, recommendation systems, and RAG applications.
+
+Vector databases are specialized systems designed to store and search embeddings efficiently. Popular vector databases include Chroma, Pinecone, Weaviate, and Milvus. These databases allow applications to perform similarity searches across large collections of documents.
+
+Data chunking is an important step in RAG pipelines. Large documents are divided into smaller chunks so that they can fit within the context window of a language model. Chunking also improves retrieval accuracy by allowing the system to return only the most relevant sections of a document.
+
+Agents are AI systems capable of using tools to accomplish tasks. An agent can analyze a user request, determine which tool to use, execute the tool, and use the results to generate a final response. Examples of tools include web search, calculators, databases, and APIs.
+
+LangChain is a framework that helps developers build applications powered by large language models. It provides components for prompt management, document loading, text splitting, embeddings, vector stores, retrieval, and agent development.
+
+LangSmith is an observability platform for AI applications. Developers use LangSmith to trace requests, inspect prompts, monitor performance, and evaluate the quality of AI-generated responses.
+
+As AI continues to evolve, organizations are increasingly adopting agentic workflows. These workflows combine language models, retrieval systems, tools, and memory to automate complex tasks while maintaining accuracy and reliability.
